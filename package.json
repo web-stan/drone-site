@@ -1,0 +1,15 @@
+{
+  "name": "drone-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/web-stan/drone-site",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
