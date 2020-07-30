@@ -1,0 +1,28 @@
+<svg id="Down_Arrow" data-name="Down Arrow" xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-opacity: 0.72;
+        stroke-width: 1px;
+      }
+
+      .cls-1 {
+        opacity: 0.38;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_7_copy_4" data-name="Ellipse 7 copy 4" class="cls-1" cx="34.5" cy="34.5" r="34"/>
+  <circle class="cls-2" cx="33.985" cy="33.985" r="21.671"/>
+  <path id="arrow" class="cls-3" d="M949.937,576.892l8.34,8.218a1.046,1.046,0,0,0,1.454,0l8.332-8.21a1,1,0,0,0,0-1.429l-0.614-.6a1.038,1.038,0,0,0-1.448,0l-7,6.9-7-6.9a1.037,1.037,0,0,0-1.449,0l-0.613.605A1,1,0,0,0,949.937,576.892Z" transform="translate(-924.5 -544.5)"/>
+</svg>
