@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
         humburger = document.querySelector('.header__navigation-humburger'),
         headerWrapperForNav = document.querySelector('.header__wrapper-for-nav');
             
-    humburger.addEventListener('click', function () {
+      humburger.addEventListener('click', function () {
       headerWrapper.classList.toggle('menu-opened');
 
       const isOpenedMenu = headerWrapper.classList.contains('menu-opened');
@@ -155,17 +155,16 @@ window.addEventListener('DOMContentLoaded', function () {
     })
   };
 
-  //disabling of scroll click humburger
   function disableScroll(humburger, headerWrapperForNav) {
-    let paddingOffset = window.innerWidth - document.body.offsetWidth;
-    document.body.style.paddingRight = `${paddingOffset + 0.5}px`;
+    let paddingOffset = window.innerWidth - document.body.clientWidth;
+    document.body.style.marginRight = `${paddingOffset + 0.5}px`;
     humburger.style.right = `${25 + paddingOffset + 0.5}px`;
     headerWrapperForNav.style.paddingRight = `${paddingOffset + 0.5}px`;
   };
 
   //enabling of scroll click humburger
   function enableScroll(humburger, headerWrapperForNav) {
-    document.body.style.paddingRight = '0px';
+    document.body.style.marginRight = '0px';
     humburger.style.right = `25px`;
     headerWrapperForNav.style.paddingRight = '';
   };
@@ -176,7 +175,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   let wow = new WOW({
     boxClass:     'wow',      // default
-    animateClass: 'animate__animated', // default
+    animateClass: 'animate__animated', 
     offset:       0,          // default
     mobile:       true,       // default
     live:         true        // default
